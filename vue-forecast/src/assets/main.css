@@ -1,0 +1,73 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-family: monospace;
+  color: #D2E4F1;
+}
+
+table {
+  margin: 30px 0px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  border: 1px solid  #3667A6;
+  background-color: #3667A6;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+td, th {
+  padding: 10px 20px;
+  font-size: large;
+  font-family: monospace;
+  color: #BDD8F1;
+}
+
+th {
+  color: #D2E4F1;
+  font-weight: 600;
+}
+
+td {
+  text-align: center;
+}
+
+button {
+  background: none;
+  border: none;
+  margin-top: 10px;
+}
+
+img {
+  width: 20px;
+}
